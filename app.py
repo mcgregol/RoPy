@@ -4,11 +4,11 @@ from roku import Roku
 
 roku = Roku('192.168.1.60')
 
-def callback_function1():
+def go_home():
     roku.home()
 
 
-def callback_function2():
+def go_search():
     roku.home()
     roku.down()
     roku.down()
@@ -19,7 +19,9 @@ def callback_function2():
 
 
 layout = [[sg.Text('Liam\'s Roku App')],
-          [sg.Button('Home'), sg.Button('Search')]]
+          [sg.Button('Home'), sg.Button('Go to Search')], 
+	      [sg.Text('Search:', size =(15, 1)), sg.InputText()],
+          [sg.Submit()]]
 
 window = sg.Window('Liam\'s Roku App', layout, margins=(600, 300))
 
@@ -28,8 +30,10 @@ while True:             # Event Loop
     if event == sg.WIN_CLOSED:
         break
     elif event == 'Home':
-        callback_function1()        # call the "Callback" function
+        go_home()        # call the "Callback" function
     elif event == 'Search':
-        callback_function2()        # call the "Callback" function
+        go_search()        # call the "Callback" function
+    elif event == 'Submit':
+        roku.literal(values[0])
 
 window.close()
