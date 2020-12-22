@@ -1,2 +1,10 @@
 # roku
-Roku remote for PC
+A minimal, open source, Roku client for PC.
+
+# Installation
+Precompiled binary available on the Releases page.
+
+- `git clone https://github.com/mcgregol/roku`
+- `cd roku`
+- `pip3 install -r requirements.txt`
+- `python3 roku-client.py`
