@@ -8,3 +8,6 @@ Precompiled binary available on the [Releases](https://github.com/mcgregol/roku/
 - `cd roku`
 - `pip3 install -r requirements.txt`
 - `python3 roku-client.py`
+
+# Screenshot
+![screenshot](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
