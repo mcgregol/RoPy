@@ -2,7 +2,7 @@
 A minimal, open source, Roku client for PC made with Python.
 
 # Installation
-Precompiled binaries for Linux and Windows available on the [Releases](https://github.com/mcgregol/roku/releases) page.
+Precompiled binary available on the [Releases](https://github.com/mcgregol/roku/releases) page.
 
 - `git clone https://github.com/mcgregol/roku`
 - `cd roku`
