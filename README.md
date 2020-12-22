@@ -1,5 +1,5 @@
 # roku
-A minimal, open source, Roku client for PC.
+A minimal, open source, Roku client for PC made with Python.
 
 # Installation
 Precompiled binary available on the Releases page.
