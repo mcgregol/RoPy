@@ -10,4 +10,4 @@ Precompiled binary available on the [Releases](https://github.com/mcgregol/roku/
 - `python3 roku-client.py`
 
 # Screenshot
-![screenshot](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![screenshot](https://github.com/mcgregol/roku/blob/main/Screenshot%202020-12-22%20225325.png)
