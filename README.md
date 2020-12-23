@@ -2,7 +2,7 @@
 A minimal, open source, Roku client for PC made with Python.
 
 # Windows
-Precompiled packages available on the [Releases](https://github.com/mcgregol/ropy/releases) page.
+Executable packages available on the [Releases](https://github.com/mcgregol/ropy/releases) page.
 
 Note: I have to add a Roku device selector so the binary probably won't work and you'll have to compile yourself or run with Python after changing the device IP address.
 
