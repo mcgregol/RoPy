@@ -13,6 +13,7 @@ Note: I have to add a Roku device selector so the binary probably won't work and
 
 # Linux
 Executable package available on the [Releases](https://github.com/mcgregol/ropy/releases) page.
+
 Make sure that `tk` is installed on your system.
 
 - `git clone https://github.com/mcgregol/ropy`
