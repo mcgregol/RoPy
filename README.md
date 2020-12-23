@@ -7,7 +7,7 @@ Precompiled packages available on the [Releases](https://github.com/mcgregol/rop
 Note: I have to add a Roku device selector so the binary probably won't work and you'll have to compile yourself or run with Python after changing the device IP address.
 
 - `git clone https://github.com/mcgregol/ropy`
-- `cd roku`
+- `cd ropy`
 - `pip3 install -r requirements.txt`
 - `python3 roku-client.py`
 
