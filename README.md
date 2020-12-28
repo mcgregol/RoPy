@@ -9,7 +9,7 @@ Note: I have to add a Roku device selector so the binary probably won't work and
 - `git clone https://github.com/mcgregol/ropy`
 - `cd ropy`
 - `pip3 install -r requirements.txt`
-- `python3 roku-client.py`
+- `python3 client.py`
 
 # Linux
 Executable package available on the [Releases](https://github.com/mcgregol/ropy/releases) page.
@@ -19,7 +19,7 @@ Make sure that `tk` is installed on your system.
 - `git clone https://github.com/mcgregol/ropy`
 - `cd ropy`
 - `sudo pip3 install -r requirements.txt`
-- `sudo python3 roku-client.py`
+- `sudo python3 client.py`
 
 # Screenshot
 ![screenshot](https://github.com/mcgregol/ropy/blob/main/Screenshot%202020-12-22%20225325.png)
