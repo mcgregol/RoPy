@@ -4,7 +4,6 @@ from tkinter import *
 from roku import Roku
 import keyboard
 
-# this is a function to get the user input from the text input box
 
 
 def getInputBoxValue():
@@ -12,7 +11,6 @@ def getInputBoxValue():
     userInput = deviceIP.get()
 
 
-# this is the function called when the button is clicked
 def connectDevice():
     getInputBoxValue()
     selector.destroy()
@@ -20,23 +18,19 @@ def connectDevice():
 
 selector = Tk()
 
-# This is the section of code which creates the main window
 selector.geometry('550x270')
 selector.configure(background='#8A2BE2')
 selector.title('Connect Device')
 
 
-# This is the section of code which creates a text input box
 deviceIP = Entry(selector)
 deviceIP.place(x=124, y=125)
 
 
-# This is the section of code which creates a button
 Button(selector, text='Connect', bg='#E0EEEE', font=(
     'arial', 12, 'normal'), command=connectDevice).place(x=284, y=115)
 
 
-# This is the section of code which creates the a label
 Label(selector, text='Roku IP:', bg='#8A2BE2', font=(
     'arial', 10, 'normal')).place(x=44, y=125)
 
@@ -148,7 +142,6 @@ try:
     Button(root, text='Settings', bg='#F0F8FF', font=(
         'arial', 12, 'normal'), command=rokuSettings).place(x=631, y=101)
 
-    # This is the section of code which creates a text input box
     sendText = Entry(root)
     sendText.place(x=291, y=171)
 
