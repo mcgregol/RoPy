@@ -37,6 +37,8 @@ Label(selector, text='Roku IP:', bg='#8A2BE2', font=(
 
 selector.mainloop()
 
+print("Connecting...")
+
 ######################################################################################
 
 try:
@@ -184,6 +186,8 @@ try:
     root.mainloop()
 
 except:
+    print("Error!")
+    
     connectionError = Tk()
 
     connectionError.geometry('530x280')
