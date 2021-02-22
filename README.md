@@ -1,6 +1,10 @@
 # roku
 A minimal, open source, Roku client for PC made with Python.
 
+Features include:
+- Arrow key keyboard controls
+- Numerous channel shortcuts
+
 # Windows
 Executable packages available on the [Releases](https://github.com/mcgregol/ropy/releases) page.
 
