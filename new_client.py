@@ -24,7 +24,7 @@ def press(button):
         roku.down()
         roku.down()
         roku.down()
-        roku.down()
+        # roku.down()
         roku.select()
     elif button == "Submit":
         userInput = app.getEntry("Send text:")
