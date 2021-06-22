@@ -16,7 +16,7 @@ Executable packages available on the [Releases](https://github.com/mcgregol/ropy
 # Linux
 Executable package available on the [Releases](https://github.com/mcgregol/ropy/releases) page.
 
-Make sure that `python3-tk` is installed on your system.
+Make sure that `python3-tkinter` is installed on your system.
 
 - `git clone https://github.com/mcgregol/ropy`
 - `cd ropy`
